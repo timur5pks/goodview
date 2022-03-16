@@ -1,0 +1,5 @@
+@media (min-width: 975px) {
+  .contact-us__contacts-column {
+    order: -1;
+  }
+}

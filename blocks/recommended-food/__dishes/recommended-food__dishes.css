@@ -1,0 +1,25 @@
+.recommended-food__dishes {
+  width: calc(100% - 48px);
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0;
+  display: grid;
+  gap: 100px;
+  grid-template-columns: minmax(165px, 300px);
+  justify-content: center;
+  list-style: none;
+}
+
+@media (min-width: 550px) {
+  .recommended-food__dishes {
+    gap: 70px;
+    grid-template-columns: repeat(2, minmax(165px, 325px));
+  }
+}
+
+@media (min-width: 768px) {
+  .recommended-food__dishes {
+    gap: 20px;
+    grid-template-columns: repeat(4, minmax(165px, 250px));
+  }
+}

@@ -1,0 +1,13 @@
+.testimonials__quote-author {
+  color: #ffb800;
+  font-family: 'FuturaPT Medium';
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+@media (min-width: 425px) {
+  .testimonials__quote-author {
+    font-size: 24px;
+  }
+}

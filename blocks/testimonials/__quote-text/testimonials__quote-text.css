@@ -1,0 +1,22 @@
+.testimonials__quote-text {
+  margin: 0 0 15px;
+  width: calc(100% - 48px);
+  max-width: 975px;
+  color: #fff;
+  font-family: 'GreatVibes';
+  font-size: 24px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+@media (min-width: 425px) {
+  .testimonials__quote-text {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 768px) {
+  .testimonials__quote-text {
+    font-size: 40px;
+  }
+}

@@ -1,0 +1,7 @@
+.slider__slide {
+  min-height: 366px;
+  flex-shrink: 0;
+  max-height: 820px;
+  object-fit: cover;
+  object-position: top center;
+}

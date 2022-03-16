@@ -1,0 +1,19 @@
+.like-button {
+  position: absolute;
+  top: 50%;
+  right: 22px;
+  transform: translate(0, -30%);
+  width: 17px;
+  height: 14px;
+  border: none;
+  background-image: url(../../images/heart.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  z-index: 1;
+}
+
+.like-button:hover {
+  background-image: url(../../images/red-heart.png);
+}

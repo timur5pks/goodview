@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+  .navigation {
+    display: none;
+  }
+}
+
+.navigation {
+  flex-basis: 555px;
+}

@@ -1,0 +1,5 @@
+.our-menu {
+  width: calc(100% - 60px);
+  max-width: 1140px;
+  padding: 94px 0;
+}

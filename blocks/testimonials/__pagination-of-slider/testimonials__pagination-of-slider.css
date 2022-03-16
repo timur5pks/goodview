@@ -1,0 +1,9 @@
+.testimonials__pagination-of-slider {
+  position: absolute;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  bottom: 29px;
+  left: 0;
+  width: 100%;
+}

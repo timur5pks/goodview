@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Goodview Family Restaurant</title>
+  <link rel="stylesheet" href="./pages/index.css">
+</head>
+<body>
+  <div class="root">
+    <header class="header">
+      <div class="header__container">
+        <a href="#" class="logo">
+          <img src="./images/logo.svg" alt="Logo" class="logo__image">
+        </a>
+        <button class="hamburger-menu-button"></button>
+        <nav class="navigation">
+          <ul class="menu">
+            <li class="menu__item"><a href="#home" class="menu__link">Home</a></li>
+            <li class="menu__item"><a href="#about-us" class="menu__link">About Us</a></li>
+            <li class="menu__item"><a href="#our-menu" class="menu__link">Menu</a></li>
+            <li class="menu__item"><a href="#recommended-food" class="menu__link">Recommended</a></li>
+            <li class="menu__item"><a href="#contact-us" class="menu__link">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  
+    <main class="content">
+
+      <section class="home" id="home">
+        <div class="slider">
+          <div class="slider__slides-container">
+            <div class="slider__slides">
+              <img src="./images/first.jpeg" alt="" class="slider__slide">
+              <img src="./images/second.jpeg" alt="" class="slider__slide">
+              <img src="./images/third.jpeg" alt="" class="slider__slide">
+            </div>
+            <div class="slider__pagination"></div>
+          </div>
+          <div class="slider__buttons">
+            <button class="slider__button-prev"></button>
+            <button class="slider__button-next"></button>
+          </div>
+        </div>
+        <div class="home__content-container">
+          <div class="home__logo"></div>
+          <h2 class="home__title">Family Restaurant</h2>
+          <button class="order-button">Order Online</button>
+        </div>
+      </section>
+
+      <section class="about-us centered-block" id="about-us">
+        <div class="about-us__text-content">
+          <h2 class="about-us__title">Offering Delicious Chinese Cuisine</h2>
+          <h3 class="about-us__subtitle">The art of cooking</h3>
+          <div class="about-us__dividing-line"></div>
+          <div class="about-us__description">
+            <p class="about-us__description-string">Chinese cuisine at GoodView Family Restaurant, located at 310 Wale Rd Suite 102, in Victoria, BC!</p>
+            <p class="about-us__description-string">Try our Wonton Soup, Lemon Chicken of House Foo Yong! Order online for delivery or Pick-Up!</p>
+          </div>
+          <p class="about-us__restaurant-name">GoodView Family Restaurant</p>
+        </div>
+        <div class="about-us__image-wrapper">
+          <img src="./images/cook.png" alt="Cook" class="about-us__image">
+        </div>
+      </section>
+  
+      <section class="testimonials" id="testimonials">
+        <div class="testimonials__slides">
+          <figure class="testimonials__quote">
+            <blockquote class="testimonials__quote-text">
+              <span class="testimonials__quote-string">Awesome place!</span>
+              <span class="testimonials__quote-string">Food was good. Online order and payment was easy. Food was ready</span>
+              <span class="testimonials__quote-string">for pickup at the stated time</span>
+            </blockquote>
+            <figcaption class="testimonials__quote-author">&mdash; Peter Watkins, Jan 11, 2022 &mdash;</figcaption>
+          </figure>
+          <figure class="testimonials__quote">
+            <blockquote class="testimonials__quote-text">
+              <span class="testimonials__quote-string">Always consistently fresh and lovingly made.</span>
+              <span class="testimonials__quote-string">Family business. You feel like part of the family when you walk through door.</span>
+              <span class="testimonials__quote-string">So thankful your still in business!</span>
+          </blockquote>
+            <figcaption class="testimonials__quote-author">&mdash; Maria, Jan 8, 2022 &mdash;</figcaption>
+          </figure>
+          <figure class="testimonials__quote">
+            <blockquote class="testimonials__quote-text">
+              <span class="testimonials__quote-string">So delicious!</span>
+              <span class="testimonials__quote-string">Excellent fast service with a Good view and great value!</span>
+              <span class="testimonials__quote-string">Looking forward to trying new items!</span>
+              </blockquote>
+            <figcaption class="testimonials__quote-author">&mdash; Alan, Jan 4, 2022 &mdash;</figcaption>
+          </figure>
+        </div>
+        <div class="testimonials__pagination-of-slider"></div>
+      </section>
+  
+      <section class="our-menu centered-block" id="our-menu">
+        <h2 class="our-menu__title">Our Menu</h2>
+        <h3 class="our-menu__subtitle">The art of cooking</h3>
+        <ul class="our-menu-list">
+          <li class="our-menu-list__item">
+            <img src="./images/appetizers.jpg" alt="Appetizers" class="our-menu-list__dish-image">
+            <div class="our-menu-list__item-bottom-row">
+              <p class="our-menu-list__dish-name">Appetizers</p>
+              <button class="like-button"></button>
+            </div>
+          </li>
+          <li class="our-menu-list__item">
+            <img src="./images/chow-mein.jpeg" alt="Chow mein" class="our-menu-list__dish-image">
+            <div class="our-menu-list__item-bottom-row">
+              <p class="our-menu-list__dish-name">Chow mein</p>
+              <button class="like-button"></button>
+            </div>
+          </li>
+          <li class="our-menu-list__item">
+            <img src="./images/soup.jpeg" alt="Soup" class="our-menu-list__dish-image">
+            <div class="our-menu-list__item-bottom-row">
+              <p class="our-menu-list__dish-name">Soup</p>
+              <button class="like-button"></button>
+            </div>
+          </li>
+          <li class="our-menu-list__item">
+            <img src="./images/fried-rice.jpeg" alt="Fried rice" class="our-menu-list__dish-image">
+            <div class="our-menu-list__item-bottom-row">
+              <p class="our-menu-list__dish-name">Fried rice</p>
+              <button class="like-button"></button>
+            </div>
+          </li>
+          <li class="our-menu-list__item">
+            <img src="./images/beef.png" alt="Beef" class="our-menu-list__dish-image">
+            <div class="our-menu-list__item-bottom-row">
+              <p class="our-menu-list__dish-name">Beef</p>
+              <button class="like-button"></button>
+            </div>
+          </li>
+          <li class="our-menu-list__item">
+            <img src="./images/seafood.jpeg" alt="Seafood" class="our-menu-list__dish-image">
+            <div class="our-menu-list__item-bottom-row">
+              <p class="our-menu-list__dish-name">Seafood</p>
+              <button class="like-button"></button>
+            </div>
+          </li>
+        </ul>
+      </section>
+  
+      <section class="recommended-food" id="recommended-food">
+        <h2 class="recommended-food__title">Recommended</h2>
+        <h3 class="recommended-food__subtitle">The art of cooking</h3>
+        <div class="recommended-food__container">
+          <ul class="recommended-food__dishes">
+            <li class="recommended-food__dish">
+              <img src="./images/combination-dinners.jpeg" alt="Combination Dinners" class="recommended-food__dish-image">
+              <p class="recommended-food__dish-name">Combination Dinners</p>
+            </li>
+            <li class="recommended-food__dish">
+              <img src="./images/deep-fried.jpeg" alt="Deep Fried" class="recommended-food__dish-image">
+              <p class="recommended-food__dish-name">Deep Fried</p>
+            </li>
+            <li class="recommended-food__dish">
+              <img src="./images/chop-suey.jpeg" alt="Chop Suey" class="recommended-food__dish-image">
+              <p class="recommended-food__dish-name">Chop Suey</p>
+            </li>
+            <li class="recommended-food__dish">
+              <img src="./images/chicken.jpeg" alt="Chicken" class="recommended-food__dish-image">
+              <p class="recommended-food__dish-name">Chicken</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+  
+      <section class="contact-us" id="contact-us">
+        <div class="contact-us__order-column">
+          <div class="contact-us__logo"><a href="#" class="logo-link"></a></div>
+          <button class="order-button contact-us__order-button">Order Online</button>
+        </div>
+        <div class="contact-us__contacts-column">
+          <h3 class="contact-us__column-title">Contact us</h3>
+          <h4 class="contact-us__column-subtitle">GoodViev Family Restaurant</h4>
+          <div class="contact-us__dividing-line"></div>
+          <p class="contact-us__address">310 Wale Rd Suite 102, Victoria, BC Canada</p>
+          <p class="contact-us__postcode">v9b2p8</p>
+          <a href="tel: 2504740822" class="contact-us__phone-number">Tel: 250-474-0822</a>
+        </div>
+        <div class="contact-us__business-hours-column">
+          <h3 class="contact-us__column-title">Business hours</h3>
+          <h4 class="contact-us__column-subtitle">The Art of Cooking</h4>
+          <div class="contact-us__dividing-line"></div>
+          <ul class="contact-us__business-days">
+            <li>
+              <p class="contact-us__business-day">Tue: 11:30am - 8:30pm</p>
+            </li>
+            <li>
+              <p class="contact-us__business-day">Wed: 11:30am - 8:30pm</p>
+            </li>
+            <li>
+              <p class="contact-us__business-day">Thu: 11:30am - 8:30pm</p>
+            </li>
+            <li>
+              <p class="contact-us__business-day">Fri: 11:30am - 8:30pm</p>
+            </li>
+            <li>
+              <p class="contact-us__business-day">Sat: 11:30am - 8:30pm</p>
+            </li>
+            <li>
+              <p class="contact-us__business-day">Sun: 11:30am - 8:30pm</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+    </main>
+  
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__column">
+          <h3 class="footer__title">GoodView Family Restaurant</h3>
+          <div class="footer__reviews">
+            <ul class="footer__stars">
+              <li class="footer__star">
+                <button class="footer__star-button"></button>
+              </li>
+              <li class="footer__star">
+                <button class="footer__star-button"></button>
+              </li>
+              <li class="footer__star">
+                <button class="footer__star-button"></button>
+              </li>
+              <li class="footer__star">
+                <button class="footer__star-button"></button>
+              </li>
+              <li class="footer__star">
+                <button class="footer__star-button"></button>
+              </li>
+            </ul>
+            <p class="footer__reviews-text">(150 reviews)</p>
+          </div>
+          <p class="footer__serving-info">Serving: Chinese cuisine</p>
+          <div class="google-plus-logo"></div>
+        </div>
+        <div class="footer__column">
+          <h3 class="footer__title">Navigation</h3>
+          <nav class="footer__navigation">
+            <ul class="footer__navigation-list">
+              <li class="footer__navigation-list-item">
+                <a href="#our-menu" class="footer__navigation-link">Menu</a>
+              </li>
+              <li class="footer__navigation-list-item">
+                <a href="#testimonials" class="footer__navigation-link">Reviews</a>
+              </li>
+              <li class="footer__navigation-list-item">
+                <a href="#about-us" class="footer__navigation-link">About Us</a>
+              </li>
+              <li class="footer__navigation-list-item">
+                <a href="#contact-us" class="footer__navigation-link">Location</a>
+              </li>
+              <li class="footer__navigation-list-item">
+                <a href="#home" class="footer__navigation-link">Order Online</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer__column">
+          <h3 class="footer__title">Address</h3>
+          <p class="footer__address">310 Wale Rd Suite 102, Victoria, BC Canada</p>
+          <p class="footer__postcode">v9b2p8</p>
+          <a href="tel: 2504740822" class="footer__phone-number">Tel: 250-474-0822</a>
+        </div>
+        <p class="footer__copyright">Copyright 2022, all rights reserved Created by <span class="footer__site-author">DI develop</span></p>
+      </div>
+    </footer>
+  </div>
+  <script src="./scripts/swiper-bundle.min.js"></script>
+  <script src="./scripts/slider.js"></script>
+</body>
+</html>
+<!-- #ffb800 - orange -->
+<!-- scroll-behavior -->

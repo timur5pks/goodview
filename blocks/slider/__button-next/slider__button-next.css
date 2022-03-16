@@ -1,0 +1,28 @@
+.slider__button-next {
+  width: 25px;
+  height: 47px;
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  background-image: url(../../../images/right-arrow.png);
+  background-color: transparent;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+  z-index: 1;
+}
+
+@media (min-width: 768px) {
+  .slider__button-next {
+    width: 30px;
+    height: 57px;
+    top: 50%;
+    right: 30px;
+  }
+  
+  .slider__button-next:hover {
+    opacity: .6;
+    transition: .3s;
+  }
+}

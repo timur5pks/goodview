@@ -1,0 +1,6 @@
+.recommended-food__container {
+  padding: 95px 0 40px;
+  background-image: url(../../../images/recommended-background.png);
+  background-size: cover;
+  background-color: #ffb800;
+}

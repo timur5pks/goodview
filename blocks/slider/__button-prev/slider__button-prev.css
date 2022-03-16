@@ -1,0 +1,28 @@
+.slider__button-prev {
+  width: 25px;
+  height: 47px;
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  background-image: url(../../../images/left-arrow.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+  z-index: 1;
+}
+
+@media (min-width: 768px) {
+  .slider__button-prev {
+    width: 30px;
+    height: 57px;
+    top: 50%;
+    left: 30px;
+  }
+  
+  .slider__button-prev:hover {
+    opacity: .6;
+    transition: .3s;
+  }
+}

@@ -1,0 +1,21 @@
+.our-menu-list {
+  display: grid;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  gap: 30px;
+}
+
+@media (min-width: 550px) {
+  .our-menu-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 860px) {
+  .our-menu-list {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+  }
+}
+

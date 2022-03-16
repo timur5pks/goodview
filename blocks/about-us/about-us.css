@@ -1,0 +1,7 @@
+.about-us {
+  display: flex;
+  max-width: 1140px;
+  min-height: 692px;
+  width: calc(100% - 30px);
+  justify-content: space-between;
+}

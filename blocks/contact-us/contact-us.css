@@ -1,0 +1,27 @@
+.contact-us {
+  text-align: center;
+  margin: 0 auto;
+  padding: 70px 0 40px;
+  width: calc(100% - 48px);
+  max-width: 975px;
+  display: grid;
+  grid-template-columns: minmax(240px, 1fr);
+  gap: 80px;
+}
+
+@media (min-width: 550px) {
+  .contact-us {
+    padding: 80px 0 100px;
+    text-align: left;
+    justify-content: space-between;
+    gap: 60px 20px;
+    grid-template-columns: repeat(2, minmax(240px, max-content));
+  }
+}
+
+@media (min-width: 975px) {
+  .contact-us {
+    padding: 142px 0 155px;
+    grid-template-columns: repeat(3, minmax(240px, max-content));
+  }
+}

@@ -1,0 +1,5 @@
+.about-us__image-wrapper {
+  display: flex;
+  flex-basis: 360px;
+  align-self: flex-end;
+}

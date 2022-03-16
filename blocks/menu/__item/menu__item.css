@@ -1,0 +1,4 @@
+.menu__item {
+  min-height: 113px;
+  display: flex;
+}

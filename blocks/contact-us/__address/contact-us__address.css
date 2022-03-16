@@ -1,0 +1,14 @@
+.contact-us__address {
+  max-width: 260px;
+  margin: 0 auto;
+  font-family: 'FuturaPT Book';
+  font-size: 18px;
+  line-height: 1.7;
+  color: #ababab;
+}
+
+@media (min-width: 550px) {
+  .contact-us__address {
+    margin: 0;
+  }
+}

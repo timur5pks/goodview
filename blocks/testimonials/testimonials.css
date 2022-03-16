@@ -1,0 +1,10 @@
+.testimonials {
+  position: relative;
+  display: flex;
+  background-image: url(../../images/testiomonials2.jpg);
+  min-height: 460px;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 38%;
+}

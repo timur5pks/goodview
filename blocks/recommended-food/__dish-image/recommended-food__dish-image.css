@@ -1,0 +1,15 @@
+.recommended-food__dish-image {
+  width: 100%;
+  margin: 0 0 30px;
+  object-fit: cover;
+  border: 10px solid #fff;
+  border-radius: 50%;
+  transition: transform .4s ease;
+}
+
+.recommended-food__dish-image:hover {
+  border: none;
+  transform: scale(1.03);
+  transition: .4s ease;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, .3);
+}

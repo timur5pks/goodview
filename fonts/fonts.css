@@ -1,0 +1,47 @@
+@font-face { 
+  font-family: 'Arial';
+  src: url(../fonts/arial-regular.woff) format('woff');
+  font-style: normal;
+}
+
+@font-face { 
+  font-family: 'BeauRivageOne';
+  src: url(../fonts/beaurivageone-regular.woff) format('woff');
+  font-style: normal;
+}
+
+@font-face { 
+  font-family: 'GreatVibes';
+  src: url(../fonts/greatvibes-regular.woff) format('woff');
+  font-style: normal;
+}
+
+@font-face { 
+  font-family: 'Futura Condensent Medium';
+  src: url(../fonts/futura-condensed-medium.woff) format('woff');
+  font-style: normal;
+}
+
+@font-face { 
+  font-family: 'FuturaPT Light';
+  src: url(../fonts/futurapt-light.woff) format('woff');
+  font-style: normal;
+}
+
+@font-face { 
+  font-family: 'FuturaPT Book';
+  src: url(../fonts/futurapt-book.woff) format('woff');
+  font-style: normal;
+}
+
+@font-face { 
+  font-family: 'FuturaPT Medium';
+  src: url(../fonts/futurapt-medium.woff) format('woff');
+  font-style: normal;
+}
+
+@font-face { 
+  font-family: 'FuturaPT Demi';
+  src: url(../fonts/futurapt-demi.woff) format('woff');
+  font-style: normal;
+}

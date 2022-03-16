@@ -1,0 +1,8 @@
+.our-menu-list__dish-name {
+  margin: 0;
+  font-family: 'FuturaPT Light';
+  text-transform: uppercase;
+  font-size: 22px;
+  color: #ababab;
+  text-align: center;
+}

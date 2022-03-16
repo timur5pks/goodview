@@ -1,0 +1,18 @@
+.slider__pagination-bullet {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #fff;
+  margin-right: 15px;
+}
+
+.slider__pagination-bullet_active {
+  background: #ffb800;
+  opacity: 1;
+}
+
+.slider__pagination-bullet:hover {
+  cursor: pointer;
+  opacity: .6;
+  transition: .3s;
+}

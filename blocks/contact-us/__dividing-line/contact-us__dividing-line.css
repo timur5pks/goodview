@@ -1,0 +1,12 @@
+.contact-us__dividing-line {
+  margin: 0 auto 35px;
+  max-width: 165px;
+  height: 3px;
+  background-color: #000;
+}
+
+@media (min-width: 550px) {
+  .contact-us__dividing-line {
+    margin: 0 0 35px;
+  }
+}

@@ -1,0 +1,8 @@
+.footer__navigation-list {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 14px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
